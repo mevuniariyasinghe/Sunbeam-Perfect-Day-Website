@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="foodstyles.css">
+        <title>Food</title>
+    </head>
+    <body>
+        <header>
+                <img class = "sunlogo"
+                 src = sunlogo.png>
+                <h1>Food</h1>
+                <div class = "buttondiv">
+                    <div class = "homepagebutton">
+                        <a href = "homepage.html">Home Page</a>
+                    </div>
+                    <div class = "activitiesbutton">
+                        <a href = "activities.html">Activities</a>
+                    </div>
+                </div>
+                <script src="foodscript.js" defer></script>
+            </div>
+        </header> 
+
+        <div class="filter-controls">
+            <button class="filter-btn active" onclick="filterGallery('all', this)">All Cuisine</button>
+            <button class="filter-btn" onclick="filterGallery('european', this)">European</button>
+            <button class="filter-btn" onclick="filterGallery('asian', this)">Asian</button>
+            <button class="filter-btn" onclick="filterGallery('seafood', this)">Seafood</button>
+            <button class="filter-btn" onclick="filterGallery('fastfood', this)">Fast Food</button>
+            <button class="filter-btn" onclick="filterGallery('$-$$', this)">$ - $$</button>
+            <button class="filter-btn" onclick="filterGallery('$$', this)">$$</button>
+            <button class="filter-btn" onclick="filterGallery('$$-$$$', this)">$$ - $$$</button>
+        </div>
+
+        <div id="grid">
+            <div class="gallery-item european $$">
+                <div class="card">
+                    <img class="card-image" src="food images/odetteseateryfoodimg.jpg" >
+                    <h3>Odettes Eatery</h3>
+                    <p id="odette">
+                        Price Range: $$ <br>
+                        Cuisine: Mediterranean <br>
+                        Location: 90 Wellesley Street West, Auckland CBD, Auckland 1010
+                    </p>            
+                </div>
+            </div>
+
+            <div class="gallery-item asian $-$$">
+                <div class="card">
+                    <img class="card-image" src="food images/littletigerdumplingfoodimg.jpg" >
+                    <h3>Little Tiger Dumpling</h3>
+                    <p id="littletiger">
+                        Price Range: $ - $$ <br>
+                        Cuisine: Chinese <br>
+                        Location: 62A Federal Street, Auckland CBD, Auckland 1010
+                    </p>            
+                </div>
+            </div>
+
+            <div class="gallery-item european $$-$$$">
+                <div class="card">
+                    <img class="card-image" src="food images/legardemangerfoodimg.jpg">
+                    <h3>Le Garde-Manger</h3>
+                    <p id="legarde">
+                        Price Range: $$ - $$$ <br>
+                        Cuisine: French <br>
+                        Location: 466 Queen Street, Auckland CBD, Auckland 1010
+                    </p>            
+                </div>
+            </div>
+
+            <div class="gallery-item seafood $$-$$$">
+                <div class="card">
+                    <img class="card-image" src="food images/swashbucklersfoodimg.jpg">
+                    <h3>Swashbucklers Restaurant & Bar</h3>
+                    <p id="swashbucklers">
+                        Price Range: $$ - $$$ <br>
+                        Cuisine: Seafood <br>
+                        Location: 23b Westhaven Drive Westhaven, Auckland Central, Auckland 1010 New Zealand
+                    </p>            
+                </div>
+            </div>
+
+            <div class="gallery-item asian $$-$$$">
+                <div class="card">
+                    <img class="card-image" src="food images/whitewongsfoodimg.jpg" >
+                    <h3>White + Wong's</h3>
+                    <p id="whitewongs">
+                        Price Range: $$ - $$$ <br>
+                        Cuisine: Asian Fusion <br>
+                        Location: 149 Quay Street Cnr Lower Hobson & Quay Street, Auckland 1010
+                    </p>            
+                </div>
+            </div>
+
+            <div class="gallery-item fastfood $-$$">
+                <div class="card">
+                    <img class="card-image" src="food images/jackfcfoodimg.jpg">
+                    <h3>Jack's Fried Chicken Queen Street</h3>
+                    <p id="jacks">
+                        Price Range: $ - $$ <br>
+                        Cuisine: Fast Food <br>
+                        Location: Shop L202/291 Queen Street, Auckland CBD, Auckland 1010
+                    </p>            
+                </div>
+            </div>
+
+            <div class="gallery-item european $$-$$$">
+                <div class="card">
+                    <img class="card-image" src="food images/almafoodimg.jpg">
+                    <h3>Alma</h3>
+                    <p id="alma">
+                        Price Range: $$ - $$$ <br>
+                        Cuisine: Spanish <br>
+                        Location: 130 Quay Street, Auckland, Britomart
+                    </p>            
+                </div>
+            </div>
+
+            <div class="gallery-item seafood $$-$$$">
+                <div class="card">
+                    <img class="card-image" src="food images/kingifoodimg.jpg">
+                    <h3>kingi</h3>
+                    <p id="kingi">
+                        Price Range: $$ - $$$ <br>
+                        Cuisine: Seafood <br>
+                        Location: 29 Galway Street, Auckland CBD The Hotel Britomart, Auckland Central, Auckland 1010 New Zealand
+                    </p>            
+                </div>
+            </div>
+
+            <div class="gallery-item fastfood $-$$">
+                <div class="card">
+                    <img class="card-image" src="food images/reburgerfoodimg.jpg">
+                    <h3>RE Burger Quay Street</h3>
+                    <p id="reburger">
+                        Price Range: $ - $$ <br>
+                        Cuisine: Fast Food <br>
+                        Location: 2/8 Quay Street, Auckland CBD, Auckland 1010
+                    </p>            
+                </div>
+            </div>
+
+            <div class="gallery-item asian $$">
+                <div class="card">
+                    <img class="card-image" src="food images/e-sarnfoodimg.jpg">
+                    <h3>Thai E-Sarn</h3>
+                    <p id="esarn">
+                        Price Range: $$ <br>
+                        Cuisine: Thai <br>
+                        Location: 3/205 Hobson Street, Auckland CBD, Auckland 1010
+                    </p>            
+                </div>
+            </div>
+
+            <div class="gallery-item european $$-$$$">
+                <div class="card">
+                    <img class="card-image" src="food images/andiarmofoodimg.jpg">
+                    <h3>Andiamo</h3>
+                    <p id="andiamo">
+                        Price Range: $$ - $$$ <br>
+                        Cuisine: Italian <br>
+                        Location: 194 Jervois Road Herne Bay, Auckland Central, Auckland 1011 New Zealand
+                    </p>            
+                </div>
+            </div>
+
+            <div class="gallery-item fastfood $-$$">
+                <div class="card">
+                    <img class="card-image" src="food images/mightyhotdogfoodimg.jpg">
+                    <h3>Mighty Hotdog Chancery</h3>
+                    <p id="mightyhotdog">
+                        Price Range: $ - $$ <br>
+                        Cuisine: Fast Food <br>
+                        Location: 47 Chancery Street, Auckland CBD, Auckland 1010
+                    </p>            
+                </div>
+            </div>
+
+            <div class="gallery-item asian $-$$">
+                <div class="card">
+                    <img class="card-image" src="food images/donburifoodimg.jpg">
+                    <h3>The Donburi House</h3>
+                    <p id="donburi">
+                        Price Range: $ - $$ <br>
+                        Cuisine: Japanese <br>
+                        Location: 50/368 Queen Street, Auckland CBD, Auckland 1010
+                    </p>            
+                </div>
+            </div>
+
+        </div>

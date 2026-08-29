@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="activitiesstyle.css">
+        <title>Activities!</title>
+    </head>
+    <body>
+        <header>
+                <img class = "sunlogo"
+                 src = sunlogo.png>
+                <h1>Activities!</h1>
+                <div class = "buttondiv">
+                    <div class = "homepagebutton">
+                        <a href = "homepage.html">Home Page</a>
+                    </div>
+                    <div class = "foodbutton">
+                        <a href = "food.html">Food</a>
+                    </div>
+                </div>
+                <script src="activitiesscript.js" defer></script>
+            </div>
+        </header> 
+
+        <div class="filter-controls">
+            <button class="filter-btn active" onclick="filterGallery('all', this)">All Activities</button>
+            <button class="filter-btn" onclick="filterGallery('nature', this)">Nature and Animals</button>
+            <button class="filter-btn" onclick="filterGallery('museum', this)">Museums</button>
+            <button class="filter-btn" onclick="filterGallery('games', this)">Games</button>
+            <button class="filter-btn" onclick="filterGallery('paid', this)">Paid</button>
+            <button class="filter-btn" onclick="filterGallery('free', this)">Free</button>
+        </div>
+        
+        <div id="grid">
+            <div class="gallery-item nature free">
+                <div class="card">
+                    <img class="card-image" src="/activities images/mount eden.jpg" alt="image of Mount Eden">
+                    <h3>Mount Eden</h3>
+                    <p id="eden">
+                        Found in the heart of Auckland, enjoy a nice stroll up Mount Eden to experience jaw-dropping views off the Hauraki Golf.<br>
+                        With one main track, people of all ages and physcial capabilities can enjoy this stunning walk. <br>
+                        This mountain has major cultural significance so come down and explore this track for free.
+                    </p>
+                    <div class="costfree">
+                        <h5>
+                            FREE
+                        </h5>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="gallery-item games paid">
+                <div class="card">
+                    <img class="card-image" src="/activities images/gravity.jpg" alt="image of Gravity Mount Wellington">
+                    <h3>Gravity Mount Wellington</h3>
+                    <p id="gravity">
+                        With many branches around Auckland, Gravity is a great chance for some family fun! <br>
+                        Enjoy this trampoline park with a large variety of foam pits, ninja courses and basketball hoops. <br>
+                        This attraction is suitable for people of all ages and even has a specific under 5's area to keep your little ones safe.
+                    </p>   
+                    <div class="costpaid">
+                        <h5>
+                            PAID
+                        </h5>
+                    </div>                 
+                </div>
+            </div>
+
+            <div class="gallery-item nature paid">
+                <div class="card">
+                    <img class="card-image" src="/activities images/auckland zoo.jpg" alt="image of Meerkats from Auckland Zoo">
+                    <h3>Auckland Zoo</h3>
+                    <p id="aklzoo">
+                        A great way to spend your day could be walking around the magnificent Auckland Zoo! <br>
+                        People of all ages will enjoy this amazing experience where you can see hundreds of cute animals! <br>
+                        Of course, there is a cafe and gift shop available for some cute souvenirs!
+                    </p>   
+                    <div class="costpaid">
+                        <h5>
+                            PAID
+                        </h5>
+                    </div>                 
+                </div>
+            </div>
+
+            <div class="gallery-item museum paid">
+                <div class="card">
+                    <img class="card-image" src="/activities images/auckland museum.jpg" alt="image of Auckland Museum">
+                    <h3>Auckland Museum</h3>
+                    <p id="aklmuseum">
+                        Take a deep dive into History--following the history of New Zealand, Auckland, and even the world. <br>
+                        Enjoy a day out for the whole family where everyone can learn something new! <br>
+                        This attraction is <span class="freeforakl"> free </span> for all Auckland residents but you must bring proof that you live there. 
+                    </p>   
+                    <div class="costpaid">
+                        <h5>
+                            PAID
+                        </h5>
+                    </div>                 
+                </div>
+            </div>
+
+            <div class="gallery-item museum free">
+                <div class="card">
+                    <img class="card-image" src="/activities images/auckland art gallery.jpg" alt="image of Auckland Art Gallery">
+                    <h3>Auckland Art Gallery</h3>
+                    <p id="aklart">
+                        Love art? At Auckland Art Galllery, you can experience a wonderful collection of art. <br>
+                        Ranging from contemporary and abstract paintings, to statues and sculptures. <br>
+                        This is a free activity you will absolutely adore if you love all things creative! 
+                    </p>   
+                    <div class="costfree">
+                        <h5>
+                            FREE
+                        </h5>
+                    </div>                 
+                </div>                
+            </div>
+
+            <div class="gallery-item nature free">
+                <div class="card">
+                    <img class="card-image" src="/activities images/cornwall park.jpg" alt="image of Cornwall Park">
+                    <h3>Cornwall Park</h3>
+                    <p id="cornwallpark">
+                        Want to take a picnic? Cornwall park provides an amazing space for a picnic or even just a walk<br>
+                        Take an amazing evening stroll with your dog, or see a walking farm. <br>
+                        Exploring this park is an amazing opportunity for the whole family to unwind and enjoy nature. 
+                    </p>   
+                    <div class="costfree">
+                        <h5>
+                            FREE
+                        </h5>
+                    </div>                 
+                </div>
+            </div>
+
+            <div class="gallery-item games paid">
+                <div class="card">
+                    <img class="card-image" src="/activities images/escapade.jpg" alt="image of escape room objects">
+                    <h3>Escapade NZ</h3>
+                    <p id="escapade">
+                        For those who love solving mysteries, here is an amazing escape room opportunity! <br>
+                        This is a perfect idea for adults and older teens to help expand on their teamwork and problem solving skills. <br>
+                        This is a great activity for fast paced game lovers as you only have 1 - 2 hours to escape!
+                    </p>   
+                    <div class="costpaid">
+                        <h5>
+                            PAID
+                        </h5>
+                    </div>                 
+                </div>
+            </div>
+
+            <div class="gallery-item museum paid">
+                <div class="card">
+                    <img class="card-image" src="/activities images/motat.jpg" alt="image of the MOTAT Tram">
+                    <h3>MOTAT</h3>
+                    <p id="motat">
+                        MOTAT is an amazing science and technology museum filled with attractions suitable for all ages. <br>
+                        Here, you can learn about technology throughout history so it is perfect for STEM lovers <br>
+                        This is a great opportunity for a day of family fun!
+                    </p>   
+                    <div class="costpaid">
+                        <h5>
+                            PAID
+                        </h5>
+                    </div>                 
+                </div>
+            </div>
+
+            <div class="gallery-item nature paid">
+                <div class="card">
+                    <img class="card-image" src="/activities images/sealife.jpg" alt="image of penguins at SEA LIFE Kelly Tarlton's Aquarium">
+                    <h3>SEA LIFE Kelly Tarlton's Aquarium</h3>
+                    <p id="sealife">
+                        Love everything oceans and animals? At SEA LIFE Kelly Tarlton's, witness a wide variety of sea creatures. <br>
+                        This is the perfect activity for a rainy day since it is completely indoors and can entertain the whole family! <br>
+                        Have an amazing time learning about our oceans and animals!
+                    </p>   
+                    <div class="costpaid">
+                        <h5>
+                            PAID
+                        </h5>
+                    </div>                 
+                </div>
+            </div>
+
+            <div class="gallery-item games paid">
+                <div class="card">
+                    <img class="card-image" src="/activities images/odyssey.jpg" alt="image of Odyssey Sensory Maze">
+                    <h3>Odyssey Sensory Maze</h3>
+                    <p id="odyssey">
+                        Found in central Auckland, the Odyssey Sensory Maze is an immersive, interactive walk through attraction. <br>
+                        It is able to challenge your perception by utilising your senses and different illusions. <br>
+                        This attraction is suitable for older kids and families!
+                    </p>   
+                    <div class="costpaid">
+                        <h5>
+                            PAID
+                        </h5>
+                    </div>
+                </div>                 
+            </div>            
+
+            <div class="gallery-item nature free">
+                <div class="card">
+                    <img class="card-image" src="/activities images/onetreehill.jpg" alt="image of One Tree Hill">
+                    <h3>One Tree Hill</h3>
+                    <p id="onetreehill">
+                        Right by Cornwall Park, One Tree Hill is a great walking track! <br>
+                        Since it is rather uphill, older people may not find this as enjoyable and it may be difficult with extremely young children. <br>
+                        Regardless, this walk provides stunning views over Auckland city.
+                    </p>   
+                    <div class="costfree">
+                        <h5>
+                            FREE
+                        </h5>
+                    </div>                 
+                </div>
+            </div>            
+
+            <div class="gallery-item nature free">
+                <div class="card">
+                    <img class="card-image" src="/activities images/bethellsbeach.jpg" alt="image of Bethells Beach">
+                    <h3>Bethells Beach</h3>
+                    <p id="bethellsbeach">
+                        Listen to the sound of waves lapping against soft sand while enjoying a meal. <br>
+                        It is also a great opportunity for a well needed beach day filled with iconic activities like swimming and beach volleyball. <br>
+                        This is a great activity for the whole family or with your friends!
+                    </p>   
+                    <div class="costfree">
+                        <h5>
+                            FREE
+                        </h5>
+                    </div>                 
+                </div>
+            </div>
+
+            <div class="gallery-item museum paid">
+                <div class="card">
+                    <img class="card-image" src="/activities images/aklmaritime.jpg" alt="image of Auckland Maritime Museum">
+                    <h3>Auckland Maritime Museum</h3>
+                    <p id="maritime">
+                        A great museum opportunity is Auckland's iconic Maritime Museum! <br>
+                        Enjoy learning our martime history right on the viaduct! <br>
+                        This attraction is <span class="freeforakl"> free </span> for all Auckland residents but you must bring proof that you live there.
+                    </p>   
+                    <div class="costpaid">
+                        <h5>
+                            PAID
+                        </h5>
+                    </div>
+                </div>
+            </div>
+
+        </div>       
+    </body>
+</html>

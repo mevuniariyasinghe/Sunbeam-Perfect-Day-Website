@@ -1,0 +1,239 @@
+body{
+    width: 1450px;
+    margin: 10px auto;
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    width: 1450px;
+    height:75px;
+    background-color: #B2D2EB;
+    color: #7BADD1;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 0px;
+}
+
+h1{
+    color:#7BADD1;
+    margin: 3px;
+    text-align: center;
+    display: flex;
+    font-size: 55px;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: #B2D2EB; 
+    font-family: sans-serif;
+}
+
+a:hover{
+    color: rgb(247, 246, 246);
+    font-family: sans-serif;
+}
+
+.sunlogo{
+    display: inline-block;
+    width: 65px;
+    height: auto;
+}
+
+.buttondiv{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0px;
+    gap: 25px;
+    padding-left: 900px;
+}
+
+.homepagebutton{
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(247, 246, 246); 
+    padding-top: 15px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.homepagebutton:hover{
+    background-color: #7BADD1;
+}
+
+.activitiesbutton{
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(247, 246, 246);  
+    padding-top: 15px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.activitiesbutton:hover{
+    background-color: #7BADD1;
+}
+
+.filter-controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+
+.filter-btn {
+    padding: 10px 20px;
+    border: 1px solid rgb(217, 217, 217);
+    background-color:rgb(247, 246, 246);
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    color: #7BADD1;
+}
+
+
+.filter-btn.active, .filter-btn:hover {
+    background-color: #7BADD1;
+    color: white;
+    border-color: #7BADD1;
+}
+
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+
+.gallery-item {
+    display: none;
+}
+
+
+.gallery-item.show {
+    display: block;
+}
+
+
+.card {
+    background-color: #cfdce7;
+    border: 1px solid #eaeaea;
+    padding: 40px 20px;
+    align-items: left;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    font-size: 15px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.card-image{
+    width: 300;
+    height: 150px;
+    align-self: left;
+    display: inline-flex;
+
+}
+
+h3{
+    display: inline-flex;
+    margin: 10px;
+    transform: translate(10px,-150px);
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+
+h5{
+    font-size: 15px;
+    display: inline-flex;
+    color: rgb(255, 255, 255);
+}
+
+#odette{
+    font-size: 20px;
+    font-family: sans-serif;
+    transform: translate(275px,-160px);
+}
+
+#littletiger{
+    font-size: 20px;
+    font-family: sans-serif;
+    transform: translate(240px,-160px);
+}
+
+#legarde{
+    font-size: 20px;
+    font-family: sans-serif;
+    transform: translate(260px,-160px);
+}
+
+#swashbucklers{
+    font-size: 20px;
+    font-family: sans-serif;
+    transform: translate(260px,-160px);
+}
+
+#whitewongs{
+    font-size: 20px;
+    font-family: sans-serif;
+    transform: translate(220px,-160px);
+}
+
+#jacks{
+    font-size: 20px;
+    font-family: sans-serif;
+    transform: translate(250px,-160px);
+}
+
+#alma{
+    font-size: 20px;
+    font-family: sans-serif;
+    transform: translate(250px,-160px);
+}
+
+#kingi{
+    font-size: 20px;
+    font-family: sans-serif;
+    transform: translate(250px,-160px);
+}
+
+#reburger{
+    font-size: 20px;
+    font-family: sans-serif;
+    transform: translate(320px,-160px);
+}
+
+#esarn{
+    font-size: 20px;
+    font-family: sans-serif;
+    transform: translate(250px,-160px);
+}
+
+#andiamo{
+    font-size: 20px;
+    font-family: sans-serif;
+    transform: translate(250px,-160px);
+}
+
+#mightyhotdog{
+    font-size: 20px;
+    font-family: sans-serif;
+    transform: translate(230px,-160px);
+}
+
+#donburi{
+    font-size: 20px;
+    font-family: sans-serif;
+    transform: translate(230px,-160px);
+}
